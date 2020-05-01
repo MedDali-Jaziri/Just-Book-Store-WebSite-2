@@ -22,7 +22,7 @@ The tools necessary to successfully install are
   </li>
   <li>sudo reboot</li>
 </ol>
-==> Leave the server running and open another virtual machine.
+==> Leave the server running and open another virtual machine.<br>
 ==> Runing the other virtual machine server for php and apache2.  
 
  * This step in machine linux Desktop<br>
@@ -31,21 +31,13 @@ The tools necessary to successfully install are
   <li>chmod +x ScriptMain.sh</li>
   <li>  ./ScriptMain.sh</li><br>
   Two window terminals will open, the first is connected to the mysql server and the second one is connect to php, apache server
-  
-</ol>
-    scp -r Just-Book-Store-WebSite-2/Partie_MYSQL/ useradm@192.168.56.60:/home/useradm
-
-* This step for virtual machine linux server PHP and Apache2
-<ol>
-  <li>ssh useradm@192.168.56.20/</li>
-  <li>cd Partie_PHP_APACHE2/</li>
-  <li>chmod +x ScriptPrincipale.sh</li>
-  <li>  ./ScriptPrincipale.sh</li>  
-==> return to virtual machine linux server MySQL.
-  <li>chmod +x ScriptPrincipale.sh</li>
-  <li>./ScriptPrincipale.sh</li>
+  <ol>
+    In the window terminale of mysql "useradm@192.168.56.60" you should make this step
+    <li>cd Partie_MYSQL</li>
+    <li>chmod + ScriptPrincipale.sh</li>
+    <li>  ./ScriptPrincipale.sh</li>
+      In the installation there is a configuration file of mysql will opened you will 
         ==> change the bind-address = 127.0.0.1 to bind-address = 0.0.0.0
-  <li>Go to the browser 192.168.56.20/JustBank/indexPage.php</li>
-
- 
-</ol>
+  </ol>
+  
+==>  Go to the browser 192.168.56.20/JustBank/indexPage.php
