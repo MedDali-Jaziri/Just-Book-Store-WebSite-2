@@ -7,4 +7,5 @@ sudo apt install php7.2-mysql
 sudo apt install mysql-client 
 
 echo "Copy the file in the /var/www/html"
-sudo cp -r Partie_PHP_APACHE2/JustBank /var/www/html
+cd Partie_PHP_APACHE2
+sudo cp -r JustBank/ /var/www/html
