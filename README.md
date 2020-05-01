@@ -13,7 +13,7 @@ The tools necessary to successfully install are
 <h3>The steps required to install this project</h3>
 
  * This step in virtual machine linux server MYSQL<br>
-    You must have a address IP diffrent for this virtual machine so if you have a same address you should make this step:
+    You must have a address IP diffrent for your virtual machine so if you have a same address you should make this step:
 <ol>
   <li>ssh useradm@192.168.56.20</li>
   <li>sudo nano /etc/netplan/50-cloud.init.yaml <br>
