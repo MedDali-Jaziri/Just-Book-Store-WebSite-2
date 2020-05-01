@@ -28,7 +28,6 @@ The tools necessary to successfully install are
 <ol>
   <li>git clone https://github.com/MedDali-Jaziri/Just-Book-Store-WebSite-2.git</li>
   <li>cd Just-Book-Store-WebSite-2</li>
-  <li>chmod +x ScriptMain.sh</li>
   <li>  ./ScriptMain.sh</li><br>
   Two window terminals will open, the first is connected to the mysql server and the second one is connect to php, apache server
   <ul>
