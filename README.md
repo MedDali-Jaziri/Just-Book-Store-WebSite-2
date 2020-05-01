@@ -37,7 +37,7 @@ The tools necessary to successfully install are
     <li>cd Partie_MYSQL</li>
     <li>chmod + ScriptPrincipale.sh</li>
     <li>  ./ScriptPrincipale.sh</li>
-      In the installation there is a configuration file of mysql will opened you will 
+      In the installation there is a configuration file of mysql will opened you will <br>
         ==> change the bind-address = 127.0.0.1 to bind-address = 0.0.0.0
   </ul>
   
