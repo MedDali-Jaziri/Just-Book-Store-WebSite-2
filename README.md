@@ -32,20 +32,20 @@ The tools necessary to successfully install are
   <li>chmod +x ScriptMain.sh</li>
   <li>  ./ScriptMain.sh</li><br>
   Two window terminals will open, the first is connected to the mysql server and the second one is connect to php, apache server
-  <ol>
-    In the window terminale of mysql "useradm@192.168.56.60" you should make this step
+  <ul>
+    ** In the window terminale of mysql "useradm@192.168.56.60" you should make this step
     <li>cd Partie_MYSQL</li>
     <li>chmod + ScriptPrincipale.sh</li>
     <li>  ./ScriptPrincipale.sh</li>
       In the installation there is a configuration file of mysql will opened you will 
         ==> change the bind-address = 127.0.0.1 to bind-address = 0.0.0.0
-  </ol>
+  </ul>
   
-  <ol>
-    In the window terminale of php and apache2 "useradm@192.168.56.20" you should make this step
+  <ul>
+    ** In the window terminale of php and apache2 "useradm@192.168.56.20" you should make this step
     <li>cd Partie_PHP_APACHE2</li>
     <li>chmod + ScriptPrincipale.sh</li>
     <li>  ./ScriptPrincipale.sh</li>
-  </ol>
+  </ul>
   
 ==>  Go to the browser 192.168.56.20/JustBank/indexPage.php
