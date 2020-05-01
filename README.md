@@ -24,7 +24,6 @@ The tools necessary to successfully install are
 </ol>
 ==> Leave the server running and open another virtual machine.<br>
 ==> Runing the other virtual machine server for php and apache2.  
-
  * This step in machine linux Desktop<br>
 <ol>
   <li>git clone https://github.com/MedDali-Jaziri/Just-Book-Store-WebSite-2.git</li>
