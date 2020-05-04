@@ -3,6 +3,7 @@ sudo apt update
 sudo apt upgrade
 sudo apt install mysql-server
 
+echo "Creation of user and the privileges"
 sudo mysql <<EOF
 create user JustGroup identified by '123';
 grant all privileges on *.* To JustGroup;
