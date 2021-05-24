@@ -1,6 +1,8 @@
 # Just-Book-Store-WebSite-2-All-in-One-LAMP 2-tiers
 
-JustBook Web Site carried out by Mohamed Ali Jaziri this project was carried out by php.
+JustBook Web Site carried out by Mohamed Ali Jaziri this project was carried out by php. For more information you must watch all the
+video decription for understand the demo for this WebSite in my Youtube channel
+https://www.youtube.com/watch?v=DXSjvH7V0SU .
 
 <h3>How you can use this application</h3>
 The tools necessary to successfully install are
